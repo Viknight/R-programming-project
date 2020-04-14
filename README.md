@@ -41,7 +41,7 @@ Using geom_line, geom_plot and geom_bar,
 Visualising the graphs and plots, 
 Rworldmap and Ggthemes will visualize the data on map.
 
---> Plots Visualised
+--> Plots Visualised are
 Line Plot, 
 Bar Plot, 
 Multile Plots, 
