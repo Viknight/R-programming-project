@@ -1,14 +1,59 @@
-# R-programming-project
-A project on analysis of global terrorism attacks that took place between 1975-2018.
+# R-Programming-Project
+# Topic - Global Terrorism Attacks Analysis
+This is an analysis of all global terrorism attacks that took place worldwide between the period of 1975-2018.
 
-Terrorism attack analysis is a process of extracting the visualizations of the affected places in the world due to various terrorist attacks by different terrorist organizations. This will help classify the data as well as assist us better understand these events with the help of patterns created by the visualizations. This can be useful in understanding the goals of such organizations and will also help us prepare to take better actions against them well before they even plan on doing such attack on any country, organization, places, etc. This can also be helpful in taking precautionary measures to reduce such activities in the future and also discourage and stop people from becoming part of such groups or organizations.
+# Details of files attached
+Terrorism analysis.R           - R analysis file
+terrorism.rar                  - Dataset
+MiniProjectPresentation.mp4    - Persentation Video
+Global_Terrorism_R_report.pdf  - Book Report
+Outputs for Experiments        - Exps Outputs
+R_lab_journal.pdf              - Journal 
 
-Global terrorism attacks analysis plays an important role in today’s world as such types of events are on the rise. People of different caste, creed, religion are getting attracted too such organizations who are willing to brain wash their targets. This global terrorism attacks analysis covers terrorism attacks from all over the world. This analysis will help the government and intelligence agencies identify such events well before they take place. R studio helps us to make this process simpler with-it flexibility and supporting packages. Visualising the output is also possible in R-Studio.
-
-The compressed rar file terrorism.rar consists of the dataset GDS of the global terrorist attacks that took place between 1975-2018.
-The Gloabl Terrorism database (GDS) is an open-source database including information on terrorist attacks around the world from 1970 through 2018. The dataset I am using contains aroun 1,90,000 terrorism attacks worldwide from 1970 to 2018 except 1993.
+# Dataset - used
+The Global Terrorism database (GDS) is an open-source database including information on terrorist attacks around the world from 1970 through 2018. The dataset I am using contains around 1,90,000 terrorism attacks worldwide that took place from 1970 to 2018 except 1993.
 Dataset can also be accessed from https://start.umd.edu/gtd/
 
-A report on Global terrorism attacks analysis through R is added as well.
+# Steps
 
+--> Trimming of Dataset
+The dataset will be trimmed from the existing 137 columns to 17 columns only by following command
 
+terrorism <- terrorism[,c("iyear","imonth", "iday", "country_txt", "region_txt", "provstate", "city", "latitude", "longitude", "attacktype1_txt", "targtype1_txt", "corp1", "target1", "natlty1_txt", "gname", "weaptype1_txt", "weapsubtype1_txt")]
+
+--> Installation of Packages and Libraries
+The following libraries will be installed and initialized in R studio before performing the analysis.
+Ggplot2,
+Dplyr,
+Ggthemes, 
+Rworldmap, 
+Reshape2, 
+xlsx.
+
+--> Plotting of Data
+Columns will be iniatialized in variables, 
+Using geom_line, geom_plot and geom_bar, 
+Visualising the graphs and plots, 
+Rworldmap and Ggthemes will visualize the data on map.
+
+--> Plots Visualised
+Line Plot, 
+Bar Plot, 
+Multile Plots, 
+Histogram,
+Heatmap.
+
+# Conclusion
+According to the analysis performed Outcome achieved via entire analysis are
+
+Globally, terrorist attacks have increased dramatically since 2010
+
+Central America was very unstable starting from the late 1970’s, it got better with time.
+
+Middle East, North Africa and South Asia had a relative quiet past until around 1980.
+
+Baghdad has become one of the most dangerous cities since 2015.
+
+The most commonly used attack tactic from 1970 to 2018 involved bomb and explosives, followed by armed assault.
+
+Iraq, Afghanistan and pakistan, India have suffered the most from terrorism.
