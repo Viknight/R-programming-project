@@ -4,10 +4,15 @@ This is an analysis of all global terrorism attacks that took place worldwide be
 
 # Details of files attached
 Terrorism analysis.R           - R analysis file
+
 terrorism.rar                  - Dataset
+
 MiniProjectPresentation.mp4    - Persentation Video
+
 Global_Terrorism_R_report.pdf  - Book Report
+
 Outputs for Experiments        - Exps Outputs
+
 R_lab_journal.pdf              - Journal 
 
 # Dataset - used
